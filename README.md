@@ -8,6 +8,12 @@ npm i socket.io-client
 ```
 Copy the code above and paste it to PowerShell/Terminal.
 
+To run it, you have to run this command:
+```
+node your-javascript-file.js
+```
+Also copy the code above and paste it to PowerShell/Terminal.
+
 ## Credits
 
 Credits to Magestick for the original repository.
