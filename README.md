@@ -1,4 +1,4 @@
-# Trollbox-TemplateBot
+# RMTrollbox-TemplateBot
 
 A template bot to create your bots for rmtrollbox.
 
