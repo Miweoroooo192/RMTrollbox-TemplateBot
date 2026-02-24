@@ -1,5 +1,5 @@
 const io = require("socket.io-client");
-const socket = io("https://www.windows93.net:8088", {
+const socket = io("https://rmtrollbox.xd4y.zip", {
 	forceNew: true,
 	transportOptions: {
 		polling: {
@@ -10,17 +10,17 @@ const socket = io("https://www.windows93.net:8088", {
 				"Cache-Control": "no-cache",
 				"Connection": "keep-alive",
 				"Cookie": "",
-				"Host": "www.windows93.net",
-				"Origin": "http://www.windows93.net",
+				"Host": "rmtrollbox.xd4y.zip",
+				"Origin": "https://rmtrollbox.xd4y.zip",
 				"Pragma": "no-cache",
-				"Referer": 'http://www.windows93.net/trollbox/index.php',
+				"Referer": 'https://rmtrollbox.xd4y.zip',
 				"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
 			}
 		}
 	}
 });
 
-        socket.emit("user joined", "BotTemplate", "lime", "", "");
+        socket.emit("user joined", "BotTemplate", "lime", "bot", "");
 
         socket.on("message", function(data) {
 
@@ -29,3 +29,4 @@ const socket = io("https://www.windows93.net:8088", {
             }
 
             })
+
